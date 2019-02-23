@@ -152,6 +152,13 @@ markdown    : kramdown
 highlighter : rouge
 permalink   : date
 
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
+# kramdown:
+#     syntax_highlighter_opts:
+#         block:
+#             line_numbers: true
+
 exclude:
   - CHANGELOG.md
   - HOW_TO_RELEASE.md

@@ -18,7 +18,7 @@ Some interesting projects I've worked on.
 
 <div class="item">
   <div class="item__image">
-    <img class="image image--xs" src="https://lh3.googleusercontent.com/dNMWYK5TFQUVULvlP-M_0XY6r7Ta4j16f5czStzgNlgGw1C5O_dg1IZeRMwPGlNC3X4=s180"/>
+    <img class="image image--xs" src="https://lh3.googleusercontent.com/voq8BeeAprry8wbaVNYUnewQg08jg9H_wNYJ4mbVH_8tYckYekWObhOvNfehHZpLM7yV=s180-rw"/>
   </div>
   <div class="item__content">
     <div class="item__description">
