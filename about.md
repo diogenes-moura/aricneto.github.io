@@ -6,38 +6,43 @@ aside:
   toc: true
 ---
 
-## Me
+# Me
+A computer engineering student. I love playing with UI/UX, and making things look nice and intuitive.
 
-Computer Engineering student at UFPE who likes to make things that are intuitive and look nice. Except this page, obviously. I'm not much of a website designer, that's why I use a template!
+# Projects
 
-## Projects
-
-Some interesting projects I've worked on.
-
-### Twisty Timer
+Some interesting things I've worked on.
 
 <div class="item">
   <div class="item__image">
-    <img class="image image--xs" src="https://lh3.googleusercontent.com/voq8BeeAprry8wbaVNYUnewQg08jg9H_wNYJ4mbVH_8tYckYekWObhOvNfehHZpLM7yV=s180-rw"/>
+    <img class="image image--sm" src="https://lh3.googleusercontent.com/voq8BeeAprry8wbaVNYUnewQg08jg9H_wNYJ4mbVH_8tYckYekWObhOvNfehHZpLM7yV=s180-rw"/>
   </div>
   <div class="item__content">
+    <div class="item__header">
+      <h4>Twisty Timer</h4>
+    </div>
     <div class="item__description">
-      <p>Twisty Timer is a material design magic puzzle timer for Android with a focus on customization and statistics.</p>
-      <a class="button button--outline-info button--pill button--xs" href="https://github.com/aricneto/twistytimer"><i class="fab fa-github"></i> GitHub</a> <a class="button button--outline-success button--pill button--xs" href="https://play.google.com/store/apps/details?id=com.aricneto.twistytimer"><i class="fab fa-google-play"></i> Google Play</a>
+      <p>A material design magic puzzle timer for Android with a focus on customization and statistics</p>
+<a class="button button--info button--pill button--xs" href="https://github.com/aricneto/twistytimer"><i class="fab fa-github"></i> GitHub</a>
+<a class="button button--outline-success button--pill button--xs" href="https://play.google.com/store/apps/details?id=com.aricneto.twistytimer"><i class="fab fa-google-play"></i> Google Play (100k+ installs)</a>
     </div>
   </div>
 </div>
 
-### RISC-DCCCLXVII
-
 <div class="item">
   <div class="item__image">
-    <img class="image image--xl" src="https://i.imgur.com/epw8sfM.png"/>
+    <img class="image image--sm" src="https://i.imgur.com/wJx5dpo.png"/>
   </div>
   <div class="item__content">
+    <div class="item__header">
+      <h4>RISC-DCCCLXVII</h4>
+    </div>
     <div class="item__description">
-      <p>RISC-DCCCLXVII is a processor based on the RISC-V architecture, written entirely in SystemVerilog</p>
-      <a class="button button--outline-info button--pill button--xs" href="https://github.com/aricneto/RISC-DCCCLXVII"><i class="fab fa-github"></i> GitHub</a>
+      <p>A processor based on the RISC-V architecture, written entirely in SystemVerilog</p>
+      <a class="button button--info button--pill button--xs" href="https://github.com/aricneto/RISC-DCCCLXVII"><i class="fab fa-github"></i> GitHub</a>      
     </div>
   </div>
 </div>
+
+
+

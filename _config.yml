@@ -106,7 +106,7 @@ sources: # bootcdn (default), unpkg
 ## => Comments
 ##############################
 comments:
-  provider: disqus # false (default), "disqus", "gitalk", "custom"
+  provider: false # false (default), "disqus", "gitalk", "custom"
 
   ## Disqus
   disqus:
