@@ -204,7 +204,13 @@ exclude:
   - /test
   - /vendor
 
+collections_dir: pages
+collections:
+  introrobotica:
+    output: true
+
 defaults:
+  ## posts
   - scope:
       path: ""
       type: posts
@@ -217,6 +223,20 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+  #intro
+  - scope:
+      path: "_introrobotica/pt"
+    values:
+      layout: article
+      nav_key: introrobotica
+      sidebar:
+        nav: introrobotica
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_date: false
+      # lightbox: true
 
 
 ## => Plugins

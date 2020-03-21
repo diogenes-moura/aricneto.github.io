@@ -1,15 +1,15 @@
 ---
 layout: article
 title: O botão
-permalink: /page/intro_robotica_lebotao
-key: intro-robotica-lebotao
+permalink: /introrobotica/pt/botao
+key: intro-robotica-botao
 aside:
   toc: true
 sidebar:
   nav: introrobotica
 comments: true
 ---
-asdasdasdasdasdasdsda
+
 A post with a left sidebar.
 
 <!--more-->
