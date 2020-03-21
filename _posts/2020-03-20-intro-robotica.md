@@ -1,7 +1,7 @@
 ---
 layout: article
 title: O botão
-permalink: /page/intro_robotica_botao.html
+permalink: /page/intro_robotica_botao
 key: intro-robotica-botao
 aside:
   toc: true
