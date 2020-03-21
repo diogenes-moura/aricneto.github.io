@@ -24,4 +24,4 @@ introrobotica:
   - title:      Introdução
     children:
       - title:  O botão
-        url:    /intro/botao
+        url:    /page/intro_robotica_botao

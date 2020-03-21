@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Introdução à Robótica
-permalink: /page/introrobotica.html
-key: introrobotica
+title: O botão
+permalink: /page/intro_robotica_botao.html
+key: intro-robotica-botao
 aside:
   toc: true
 sidebar:
