@@ -16,7 +16,7 @@ Thing is, the RISC-V is still quite new. While it's quite easy to find informati
 So I decided to create this little documentation, with everything I learned while building a working RISC-V implementation from scratch in SystemVerilog, along with a few tools I've developed to help run the projects. I hope this small compemdium is useful for someone with similar projects in the future.
 
 This documentation is supposed to be a quick reference, and provide just enough info to point you in the right directions. Please take your time to do your own research too!  
-<sup>I'm only a student, so some info may be missing or incorrect. If you find any errors, please contact me!</sup>
+<sup>I'm only a student, so some info may be missing or incorrect. If you find any errors, please contact me</sup>
 {:.warning}
 
 # The RISC-V multicycle architecture
