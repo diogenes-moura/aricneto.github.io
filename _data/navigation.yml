@@ -2,34 +2,14 @@ header:
   - title: Archive
     url: /archive.html
   - title: Intro Robotica
-    url: /introrobotica/pt
+    url: /introrobotica/pt/intro
   - title: About
     url: /about.html
   - title: Github
     url: https://github.com/aricneto
 
-docs:
-  - title:      Start
-    children:
-      - title:  Quick Start
-        url:    /docs/en/quick-start
-      - title:  Structure
-        url:    /docs/en/structure
-  - title:      Customization
-    children:
-      - title:  Configuration
-        url:    /docs/en/configuration
-      - title:  Navigation
-        url:    /docs/en/navigation
-
 introrobotica:
-  - title:      Introdução
+  - title:      Começando
     children:
-      - title:  O botão
-        url:    /page/intro_robotica_botao
-      - title:  Le botão
-        url:    /page/intro_robotica_lebotao
-  - title:      asdIntrodução
-    children:
-      - title:  asdO botão
-        url:    /page/intro_robotica_basdotao
+      - title:  Introdução
+        url:    /introrobotica/pt/intro

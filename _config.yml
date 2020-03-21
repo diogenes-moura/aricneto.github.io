@@ -223,7 +223,7 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
-  #intro
+  ## intro
   - scope:
       path: "_introrobotica/pt"
     values:
