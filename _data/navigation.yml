@@ -25,6 +25,9 @@ introrobotica:
     children:
       - title:  O botão
         url:    /page/intro_robotica_botao
+    children:
+      - title:  Le  botão
+        url:    /page/ilentro_robotica_botao
   - title:      asdIntrodução
     children:
       - title:  asdO botão
