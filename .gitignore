@@ -18,6 +18,9 @@ node_modules/
 /vendor/bundle
 *.gem
 
+vendor
+vendor/*
+
 yarn.lock
 package-lock.json
 Gemfile.lock
