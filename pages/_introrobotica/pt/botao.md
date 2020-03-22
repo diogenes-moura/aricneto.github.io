@@ -71,3 +71,5 @@ Abrindo o TinkerCAD, faça este simples circuito (calcule o valor do resistor ut
 Note que o LED ainda precisa completar a conexão do lado negativo.  
 Como devemos conectar o terminal negativo da bateria ao botão, para que o LED ligue apenas quando o botão for apertado?
 {:.warning}
+
+test
