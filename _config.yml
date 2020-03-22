@@ -52,7 +52,7 @@ author:
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
 repository: aricneto/aricneto.github.io
-repository_tree: master
+repository_tree: source
 
 
 ## => Paths
@@ -203,6 +203,8 @@ exclude:
   - /screenshots
   - /test
   - /vendor
+  - Rakefile
+  - Dockerfile.dev
 
 collections_dir: pages
 collections:
