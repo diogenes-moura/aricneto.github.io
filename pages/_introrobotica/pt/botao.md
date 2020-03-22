@@ -47,7 +47,7 @@ Vamos adotar este espírito. Algumas coisas podem parecer uma caixinha mágica, 
 
 Não se desencoraje, estaremos aqui para esclarecer cada passo do processo.
 
-Explodam seus circuitos `(nos simuladores, claro :p)`{:.info} , façam coisas que nem vocês mesmo entendem, explodam essas coisas tambem, e descubram por que elas exploridam! O maior aprendizado vem das falhas. Estamos aqui para explicar por quê cada coisa funciona ou para de funcionar, pois já manjamos de parte da magia. O resto, porém, fica para vocês inventarem.
+Explodam seus circuitos `(nos simuladores, claro :p)`, façam coisas que nem vocês mesmo entendem, explodam essas coisas tambem, e descubram por que elas exploridam! O maior aprendizado vem das falhas. Estamos aqui para explicar por quê cada coisa funciona ou para de funcionar, pois já manjamos de parte da magia. O resto, porém, fica para vocês inventarem.
 
 ## De volta aos botões
 ### Teoria
@@ -65,11 +65,23 @@ Na direita, o botão está pressionado, logo, um conector interno liga os dois t
 ### Prática
 
 Vamos então pôr em prática o que aprendemos sobre o funcionamento interno do botão táctil.  
-Abrindo o TinkerCAD, faça este simples circuito (calcule o valor do resistor utilizando a lei de Ohm!):
-<div align="center"><img class="image image--xl" src="https://i.imgur.com/ngTCs5E.png"/></div>
-**Pergunta:**  
-Note que o LED ainda precisa completar a conexão do lado negativo.  
-Como devemos conectar o terminal negativo da bateria ao botão, para que o LED ligue apenas quando o botão for apertado?
-{:.warning}
+Abrindo o TinkerCAD, monte este simples circuito:
 
-test
+**Exercicios:**  
+Calcule o valor do resistor utilizando a lei de Ohm!  
+Mude a conexão do negativo da bateria para outros terminais do botão. O que acontece?  
+Compare a estrutura interna do botão, mostrada na parte teórica, com este exemplo. Por que este circuito funciona?
+{:.warning}
+<div align="center">
+  <img class="image image--xl" src="https://i.imgur.com/OHv2FPv.png"/>
+</div>
+
+Tendo compreendido o circuito acima, vamos passar este exemplo para a protoboard:
+
+**Exercicios:**  
+Este circuito é exatamente igual ao anterior. Usando os conhecimentos que você tem sobre a protoboard, procure entender por quê.  
+Adicione um outro LED à protoboard, e conecte ele de um modo que, ao apertar o botão, ambos os LEDs acendam.
+{:.warning}
+<div align="center">
+  <img src="https://i.imgur.com/c7a76v2.png"/>
+</div>
