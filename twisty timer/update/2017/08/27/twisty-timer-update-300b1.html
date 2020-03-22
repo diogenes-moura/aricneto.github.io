@@ -1,11 +1,10 @@
 <!DOCTYPE html><html lang="en">
   <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>404 - aricneto</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Twisty Timer 3.0.0b1 update! - aricneto</title>
 
-<meta name="description" content="a small space for my thoughts and scribbles.
-">
-<link rel="canonical" href="/404.html"><link rel="alternate" type="application/rss+xml" title="aricneto" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
+<meta name="description" content="After almost 9 months of no updates, Twisty Timer is back with a brand-new, out-of-the-blue update!The main focus of this update was improving the layout of ...">
+<link rel="canonical" href="/twisty%20timer/update/2017/08/27/twisty-timer-update-300b1.html"><link rel="alternate" type="application/rss+xml" title="aricneto" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
 
 <meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/assets/browserconfig.xml">
 
@@ -255,7 +254,7 @@
 </head>
   <body>
     <div class="root" data-is-touch="false">
-      <div class="layout--page js-page-root"><div class="page__main js-page-main page__viewport cell cell--auto">
+      <div class="layout--page js-page-root"><div class="page__main js-page-main page__viewport has-aside cell cell--auto">
 
       <div class="page__main-inner"><div class="page__header d-print-none"><header class="header"><div class="main">
       <div class="header__title">
@@ -267,19 +266,165 @@
   </header>
 </div><div class="page__content"><div class ="main"><div class="grid grid--reverse">
 
-              <div class="col-aside d-print-none js-col-aside"></div>
+              <div class="col-aside d-print-none js-col-aside"><aside class="page__aside js-page-aside"><div class="toc-aside js-toc-root"></div>
+</aside></div>
 
               <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
 
 <!-- end custom main top snippet -->
-<article itemscope itemtype="http://schema.org/WebPage"><header style="display:none;"><h1>404</h1></header><meta itemprop="headline" content="404"><meta itemprop="author" content="aricneto"/><div class="js-article-content"><div class="layout--404">
-  <div class="sign">
-    <h1>404</h1>
-    <p>Page not found :(</p>
-  </div>
+<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>Twisty Timer 3.0.0b1 update!</h1></header><span class="split-space">&nbsp;</span>
+          <a class="edit-on-github"
+            title="Edit on Github"
+            href="https://github.com/aricneto/aricneto.github.io/tree/master/pages/_posts/2017-08-27-twisty-timer-update-300b1.md">
+            <i class="far fa-edit"></i></a></div><meta itemprop="headline" content="Twisty Timer 3.0.0b1 update!"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Aug 27, 2017</span>
+            </li></ul></div><meta itemprop="author" content="aricneto"/><meta itemprop="datePublished" content="2017-08-27T00:00:00-03:00"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
+
+<!-- end custom article top snippet -->
+<div class="article__content" itemprop="articleBody"><p>After almost 9 months of no updates, <strong>Twisty Timer</strong> is back with a brand-new, out-of-the-blue update!</p>
+
+<p>The main focus of this update was improving the layout of the two pages that needed it the most: Settings and Statistics. Along with it, we also added some small but very useful features, like inspection alerts for 8 and 12 seconds, average record highlights, and two new stats!<br />
+I’ll break it down one by one so you can see what’s changed.</p>
+
+<!--more-->
+
+<h2 id="layout-improvements">Layout improvements</h2>
+
+<h3 id="statistics-page">Statistics page</h3>
+
+<p>The previous statistics page was quite a mess. On high DPI devices, the text became too spaced out and small, making it very hard to read at a glance. On low DPI devices, it consumed almost the entire screen, obscuring the graph. In both cases, the unecessary padding, along with strings that, when localized, sometimes became too big and filled a third of the stats card, showed that the whole thing had to be redone.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Old</th>
+      <th style="text-align: center">New</th>
+      <th style="text-align: center">New</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="http://i.imgur.com/0sQQcCI.png" alt="Old" /></td>
+      <td style="text-align: center"><img src="http://i.imgur.com/LBocDW6.png" alt="New (collapsed)" /></td>
+      <td style="text-align: center"><img src="http://i.imgur.com/iHOZgdB.png?1" alt="New (expanded)" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>On remaking the layout, I focused on three things: give the graph more space for users on portrait mode, omit redundant information, and make localization easier.<br />
+As you can see, the graph is now much more prominent, and the table is clearer and easier to read, with different colors for each row so you are able to locate everything at a glance. The column captions became icons that, hopefully, should be clear enough to show what each table represents. Either way, you can long-press them to see the full captions.</p>
+
+<blockquote>
+  <p><strong>But why icons? Isn’t the table supposed to be clearer now? Won’t icons just add another layer of having to figure out what stuff means?</strong><br />
+Yep. I really didn’t want to put the icons initially, but it’s the only way I found to keep the table layout the same regardless of localization. “Best” can easily fit within the small space available for column title, but you’ll have a hard time fitting “Najlepszy” (Polish for “Best”) on that space, specially in low-dpi devices.</p>
+</blockquote>
+
+<p>Statistics have also been moved to three different “categories”: Improvement, Average, and Other.<br />
+“Average”, as the name would suggest, shows all your averages. “Other” shows a mix of other useful statistics. “Improvement”, on the other hand, doesn’t have any unique statistics. It is simply a list of stats that I find best represent your speed: Deviation, Ao12, Ao50, Ao100, Best and Count. This list is very subjective, and I’m willing to change it depending on user feedback.</p>
+
+<blockquote>
+  <p><strong>Why add that tab then? It doesn’t show anything new.</strong><br />
+Whenever I see a Twisty Timer screenshot, 9 times out of 10 it is of the stats page. I know people like to see their stats all on one page, and I was afraid moving the stats card down to make space for the graph, and separating it in tabs would take some of the convenience of just being able to see it all. The improvements page is, at its heart, basically a “screenshot mode”. If you pull it up, you still have a clear view of the graph, along with what I think are the most relevant statistics (again, this is highly subjective).<br />
+Anyway, tell me what you think. This is a beta anyway :)</p>
+</blockquote>
+
+<p>Here you can also see the two new statistics: “Deviation” and “Total time”!<br />
+<strong>Total time</strong> shows you the sum of all your times in a given category, giving you a rough estimate of how much time you spent practicing.<br />
+<strong>Deviation</strong> shows you the Sample Standard Deviation of all your solves in a given category. That is, how much your times deviate from the mean. The lower it is, the more consistent you are.</p>
+
+<h3 id="settings-page">Settings page</h3>
+
+<p>By far the one that most needed a change. The old settings page was ugly and confusing. The settings were all scattered around and hard to find. For an app that focuses on customization, this is an issue that definitely needed to be fixed. To tackle it, I wrote all the existing preferences into a <a href="http://i.imgur.com/0uJKuI7.png">Trello table</a>, and reorganized and regrouped them until I felt it flowed well. Applying them to the app afterwards was much easier, since I already knew where each piece would go.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Old</th>
+      <th style="text-align: center">New</th>
+      <th style="text-align: center">New</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="http://i.imgur.com/lrsy6Ys.png?1" alt="Old" /></td>
+      <td style="text-align: center"><img src="http://i.imgur.com/dQ7PXZs.png?1" alt="New" /></td>
+      <td style="text-align: center"><img src="http://i.imgur.com/fP7G2JN.png?1" alt="New" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="new-features">New features</h2>
+
+<h3 id="inspection-warning">Inspection Warning</h3>
+
+<p class="success">This feature was introduced by <a href="https://github.com/aswna">aswna</a> on Github!</p>
+
+<p>The timer can now alert you when your inspection time is running out! By default, it’ll alert you at the 8 and 12 seconds marks, but if you have a custom inspection time, it’ll automatically adjust to alert you when 50% and 80% of the time has passed.<br />
+This feature is off by default. You must enable it by going to Settings -&gt; Inspection behavior.</p>
+
+<h3 id="best-average-highlight">Best average highlight</h3>
+
+<p class="success">This feature was introduced by <a href="https://github.com/druidalek">druidalek</a> on Github!</p>
+
+<p>You’ll now be notified whenever you hit a personal best average when timing!<br />
+<img src="http://i.imgur.com/UBOdpNw.png?2" alt="Average best" /></p>
+
+<h2 id="bug-fixes-and-minor-improvements">Bug fixes and minor improvements</h2>
+
+<ul>
+  <li>Rotating the screen no longer resets the scramble
+    <ul>
+      <li>Thanks to <a href="https://github.com/freundTech">freundTech</a> on Github</li>
+    </ul>
+  </li>
+  <li>Fixed an issue where layout would look wonky in devices with RTL languages</li>
+  <li>Make app movable to SD card</li>
+  <li>Fixed 4x4 and 5x5 showing BLD scrambles</li>
+  <li>Fixed leftover inspection +2 bug</li>
+  <li>Back button behaviour can now be toggled off in settings</li>
+  <li>You can now choose which sides you want the cross hints to show.</li>
+</ul>
+
+<p><em>Reports of my death have been greatly exaggerated.</em></p>
+</div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2017-08-27T00:00:00-03:00"><!-- start custom article footer snippet -->
+
+<!-- end custom article footer snippet -->
+<div class="article__subscribe"><div class="subscribe"><i class="fas fa-rss"></i> <a type="application/rss+xml" href="/feed.xml">Subscribe</a></div>
+</div><!-- <div class="article__license"><div class="license">
+    <p>This work is licensed under a <a itemprop="license" rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International</a> license.
+      <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">
+        <img alt="Attribution-NonCommercial 4.0 International" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" />
+      </a>
+    </p>
+  </div></div> --></footer>
 </div>
 
+</div>
 
+<script>(function() {
+  var SOURCES = window.TEXT_VARIABLES.sources;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    $(function() {
+      var $this ,$scroll;
+      var $articleContent = $('.js-article-content');
+      var hasSidebar = $('.js-page-root').hasClass('layout--page--sidebar');
+      var scroll = hasSidebar ? '.js-page-main' : 'html, body';
+      $scroll = $(scroll);
+
+      $articleContent.find('.highlight').each(function() {
+        $this = $(this);
+        $this.attr('data-lang', $this.find('code').attr('data-lang'));
+      });
+      $articleContent.find('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]').each(function() {
+        $this = $(this);
+        $this.append($('<a class="anchor d-print-none" aria-hidden="true"></a>').html('<i class="fas fa-anchor"></i>'));
+      });
+      $articleContent.on('click', '.anchor', function() {
+        $scroll.scrollToAnchor('#' + $(this).parent().attr('id'), 400);
+      });
+    });
+  });
+})();
+</script>
 </div><section class="page__comments d-print-none"></section></article><!-- start custom main bottom snippet -->
 
 <!-- end custom main bottom snippet -->
@@ -824,6 +969,68 @@ window.Lazyload.js([SOURCES.jquery, PAHTS.search_js], function() {
 /*(function () {
 
 })();*/
+</script><script>
+  /* toc must before affix, since affix need to konw toc' height. */(function() {
+  var SOURCES = window.TEXT_VARIABLES.sources;
+  var TOC_SELECTOR = window.TEXT_VARIABLES.site.toc.selectors;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    var $window = $(window);
+    var $articleContent = $('.js-article-content');
+    var $tocRoot = $('.js-toc-root'), $col2 = $('.js-col-aside');
+    var toc;
+    var tocDisabled = false;
+    var hasSidebar = $('.js-page-root').hasClass('layout--page--sidebar');
+    var hasToc = $articleContent.find(TOC_SELECTOR).length > 0;
+
+    function disabled() {
+      return $col2.css('display') === 'none' || !hasToc;
+    }
+
+    tocDisabled = disabled();
+
+    toc = $tocRoot.toc({
+      selectors: TOC_SELECTOR,
+      container: $articleContent,
+      scrollTarget: hasSidebar ? '.js-page-main' : null,
+      scroller: hasSidebar ? '.js-page-main' : null,
+      disabled: tocDisabled
+    });
+
+    $window.on('resize', window.throttle(function() {
+      tocDisabled = disabled();
+      toc && toc.setOptions({
+        disabled: tocDisabled
+      });
+    }, 100));
+
+  });
+})();
+(function() {
+  var SOURCES = window.TEXT_VARIABLES.sources;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    var $window = $(window), $pageFooter = $('.js-page-footer');
+    var $pageAside = $('.js-page-aside');
+    var affix;
+    var tocDisabled = false;
+    var hasSidebar = $('.js-page-root').hasClass('layout--page--sidebar');
+
+    affix = $pageAside.affix({
+      offsetBottom: $pageFooter.outerHeight(),
+      scrollTarget: hasSidebar ? '.js-page-main' : null,
+      scroller: hasSidebar ? '.js-page-main' : null,
+      scroll: hasSidebar ? $('.js-page-main').children() : null,
+      disabled: tocDisabled
+    });
+
+    $window.on('resize', window.throttle(function() {
+      affix && affix.setOptions({
+        disabled: tocDisabled
+      });
+    }, 100));
+
+    window.pageAsideAffix = affix;
+  });
+})();
 </script><script>
   window.Lazyload.js(['https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js', 'https://cdn.bootcss.com/Chart.js/2.7.2/Chart.bundle.min.js'], function() {
     var $canvas = null, $this = null, _ctx = null, _text = '';
