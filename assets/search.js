@@ -1,0 +1,1 @@
+window.TEXT_SEARCH_DATA={'introrobotica':[{'title':"Interfaces básicas de comunicação",'url':"/introrobotica/pt/intro"},{'title':"Um pouco de programação...",'url':"/introrobotica/pt/programacao"}],'posts':[{'title':"Twisty Timer 3.0.0b1 update!",'url':"/twisty%20timer/update/2017/08/27/twisty-timer-update-300b1.html"}]};
