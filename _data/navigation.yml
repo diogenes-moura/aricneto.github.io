@@ -13,3 +13,5 @@ introrobotica:
     children:
       - title:  Introdução
         url:    /introrobotica/pt/intro
+      - title:  Programação
+        url:    /introrobotica/pt/programacao
