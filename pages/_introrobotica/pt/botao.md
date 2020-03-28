@@ -47,12 +47,12 @@ Vamos adotar este espírito. Algumas coisas podem parecer uma caixinha mágica, 
 
 Não se desencoraje, estaremos aqui para esclarecer cada passo do processo.
 
-Explodam seus circuitos `(nos simuladores, claro :p)`, façam coisas que nem vocês mesmo entendem, explodam essas coisas tambem, e descubram por que elas exploridam! O maior aprendizado vem das falhas. Estamos aqui para explicar por quê cada coisa funciona ou para de funcionar, pois já manjamos de parte da magia. O resto, porém, fica para vocês inventarem.
+~~Explodam seus circuitos `(nos simuladores, claro :p)`, façam coisas que nem vocês mesmo entendem, explodam essas coisas tambem, e descubram por que elas exploridam! O maior aprendizado vem das falhas. Estamos aqui para explicar por quê cada coisa funciona ou para de funcionar, pois já manjamos de parte da magia. O resto, porém, fica para vocês inventarem.~~~ Sugestão para retirar
 
 ## De volta aos botões
 ### Teoria
 
-O botão táctil é composto por quatro contatos de metal, que entram em curto quando pressionados por um disco condutor.
+O botão táctil é composto por quatro contatos de metal, que se tocam quando pressionados por um disco condutor.
 
 Tipicamente, o botão táctil apresenta dois pares de contatos opostos uns aos outros. Estes contatos estão ligados de tal forma que, internamente, o contato diretamente oposto a ele é, de fato, parte do mesmo terminal. Na direita, podemos ver como estes contatos estão conectados internamente (note que eles não se tocam).
 <div align="center"><img class="image image--xl" src="https://i.imgur.com/ppox02A.png"/></div>
